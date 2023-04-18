@@ -165,11 +165,12 @@ fnf_highestoi_CE = highest_oi_CE(10,50,fnf_nearest,url_fnf)
 # Finding Highest OI in Put Option In FIN Nifty
 fnf_highestoi_PE = highest_oi_PE(10,50,fnf_nearest,url_fnf)
 
-
-
+print(strCyan(str("RAVICHAND MATANGI")))
+print_hr()
 print(strCyan(str("Major Resistance in Nifty............:")) + str(nf_highestoi_CE))
 print(strCyan(str("Major Support in Nifty...............:")) + str(nf_highestoi_PE))
 print(strPurple(str("Major Resistance in Bank Nifty.......:")) + str(bnf_highestoi_CE))
 print(strPurple(str("Major Support in Bank Nifty..........:")) + str(bnf_highestoi_PE))
 print(strRed(str("Major Resistance in FIN Nifty........:")) + str(fnf_highestoi_CE))
 print(strRed(str("Major Support in FIN Nifty...........:")) + str(fnf_highestoi_PE))
+print_hr()
